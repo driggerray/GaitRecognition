@@ -32,3 +32,10 @@ class VideoToFrames:
             video.release()
             print('done')
             count+=1
+
+def main():
+    obj1=VideoToFrames()
+    obj1.run()
+
+if __name__ == '__main__':
+    main()
